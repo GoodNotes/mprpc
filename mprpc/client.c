@@ -5982,7 +5982,7 @@ static PyTypeObject __pyx_type_5mprpc_6client_RPCClient = {
   sizeof(struct __pyx_obj_5mprpc_6client_RPCClient), /*tp_basicsize*/
   0, /*tp_itemsize*/
   __pyx_tp_dealloc_5mprpc_6client_RPCClient, /*tp_dealloc*/
-  0, /*tp_print*/
+  0, /*tp_vectorcall_offset*/
   0, /*tp_getattr*/
   0, /*tp_setattr*/
   #if PY_MAJOR_VERSION < 3
@@ -6369,7 +6369,7 @@ static int __Pyx_modinit_type_init_code(void) {
   __pyx_vtable_5mprpc_6client_RPCClient._create_request = (PyObject *(*)(struct __pyx_obj_5mprpc_6client_RPCClient *, PyObject *, PyObject *))__pyx_f_5mprpc_6client_9RPCClient__create_request;
   __pyx_vtable_5mprpc_6client_RPCClient._parse_response = (PyObject *(*)(struct __pyx_obj_5mprpc_6client_RPCClient *, PyObject *))__pyx_f_5mprpc_6client_9RPCClient__parse_response;
   if (PyType_Ready(&__pyx_type_5mprpc_6client_RPCClient) < 0) __PYX_ERR(0, 15, __pyx_L1_error)
-  __pyx_type_5mprpc_6client_RPCClient.tp_print = 0;
+  __pyx_type_5mprpc_6client_RPCClient.tp_vectorcall_offset = 0;
   if ((CYTHON_USE_TYPE_SLOTS && CYTHON_USE_PYTYPE_LOOKUP) && likely(!__pyx_type_5mprpc_6client_RPCClient.tp_dictoffset && __pyx_type_5mprpc_6client_RPCClient.tp_getattro == PyObject_GenericGetAttr)) {
     __pyx_type_5mprpc_6client_RPCClient.tp_getattro = __Pyx_PyObject_GenericGetAttr;
   }

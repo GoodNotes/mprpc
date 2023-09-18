@@ -5760,7 +5760,7 @@ static PyTypeObject __pyx_type_5mprpc_6server_RPCServer = {
   sizeof(struct __pyx_obj_5mprpc_6server_RPCServer), /*tp_basicsize*/
   0, /*tp_itemsize*/
   __pyx_tp_dealloc_5mprpc_6server_RPCServer, /*tp_dealloc*/
-  0, /*tp_print*/
+  0, /*tp_vectorcall_offset*/
   0, /*tp_getattr*/
   0, /*tp_setattr*/
   #if PY_MAJOR_VERSION < 3
@@ -5871,7 +5871,7 @@ static PyTypeObject __pyx_type_5mprpc_6server__RPCConnection = {
   sizeof(struct __pyx_obj_5mprpc_6server__RPCConnection), /*tp_basicsize*/
   0, /*tp_itemsize*/
   __pyx_tp_dealloc_5mprpc_6server__RPCConnection, /*tp_dealloc*/
-  0, /*tp_print*/
+  0, /*tp_vectorcall_offset*/
   0, /*tp_getattr*/
   0, /*tp_setattr*/
   #if PY_MAJOR_VERSION < 3
@@ -6142,7 +6142,7 @@ static int __Pyx_modinit_type_init_code(void) {
   __pyx_vtable_5mprpc_6server_RPCServer._send_result = (PyObject *(*)(struct __pyx_obj_5mprpc_6server_RPCServer *, PyObject *, int, struct __pyx_obj_5mprpc_6server__RPCConnection *))__pyx_f_5mprpc_6server_9RPCServer__send_result;
   __pyx_vtable_5mprpc_6server_RPCServer._send_error = (PyObject *(*)(struct __pyx_obj_5mprpc_6server_RPCServer *, PyObject *, int, struct __pyx_obj_5mprpc_6server__RPCConnection *))__pyx_f_5mprpc_6server_9RPCServer__send_error;
   if (PyType_Ready(&__pyx_type_5mprpc_6server_RPCServer) < 0) __PYX_ERR(0, 12, __pyx_L1_error)
-  __pyx_type_5mprpc_6server_RPCServer.tp_print = 0;
+  __pyx_type_5mprpc_6server_RPCServer.tp_vectorcall_offset = 0;
   if ((CYTHON_USE_TYPE_SLOTS && CYTHON_USE_PYTYPE_LOOKUP) && likely(!__pyx_type_5mprpc_6server_RPCServer.tp_dictoffset && __pyx_type_5mprpc_6server_RPCServer.tp_getattro == PyObject_GenericGetAttr)) {
     __pyx_type_5mprpc_6server_RPCServer.tp_getattro = __Pyx_PyObject_GenericGetAttr;
   }
@@ -6154,7 +6154,7 @@ static int __Pyx_modinit_type_init_code(void) {
   __pyx_vtable_5mprpc_6server__RPCConnection.recv = (PyObject *(*)(struct __pyx_obj_5mprpc_6server__RPCConnection *, int))__pyx_f_5mprpc_6server_14_RPCConnection_recv;
   __pyx_vtable_5mprpc_6server__RPCConnection.send = (PyObject *(*)(struct __pyx_obj_5mprpc_6server__RPCConnection *, PyObject *))__pyx_f_5mprpc_6server_14_RPCConnection_send;
   if (PyType_Ready(&__pyx_type_5mprpc_6server__RPCConnection) < 0) __PYX_ERR(0, 150, __pyx_L1_error)
-  __pyx_type_5mprpc_6server__RPCConnection.tp_print = 0;
+  __pyx_type_5mprpc_6server__RPCConnection.tp_vectorcall_offset = 0;
   if ((CYTHON_USE_TYPE_SLOTS && CYTHON_USE_PYTYPE_LOOKUP) && likely(!__pyx_type_5mprpc_6server__RPCConnection.tp_dictoffset && __pyx_type_5mprpc_6server__RPCConnection.tp_getattro == PyObject_GenericGetAttr)) {
     __pyx_type_5mprpc_6server__RPCConnection.tp_getattro = __Pyx_PyObject_GenericGetAttr;
   }
